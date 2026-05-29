@@ -1,0 +1,27 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aiofiles>=25.1.0",
+    "bcrypt==4.0.1",
+    "docxtpl>=0.20.2",
+    "fastapi>=0.136.3",
+    "openpyxl>=3.1.5",
+    "passlib>=1.7.4",
+    "pydantic>=2.13.4",
+    "pydantic-settings>=2.14.1",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.2",
+    "python-jose>=3.5.0",
+    "python-multipart>=0.0.29",
+    "requests>=2.34.2",
+    "sqlalchemy>=2.0.50",
+    "uvicorn>=0.48.0",
+]
+
+[[tool.uv.index]]
+url = "https://mirrors.aliyun.com/pypi/simple/"
+default = true
